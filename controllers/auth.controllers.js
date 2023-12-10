@@ -44,7 +44,7 @@ export const verificarEmail = async (req, res) => {
       await usuario.save();
 
       // Redirige al servidor frontend
-      res.redirect("http://localhost:5173/CuentaValidada"); // Cambia esta URL según tu configuración
+      res.redirect("https://quejup-frontend.vercel.app/CuentaValidada"); // Cambia esta URL según tu configuración
     } else {
       res.redirect("/error"); // Redirige a una página de error si no se encuentra el token
     }

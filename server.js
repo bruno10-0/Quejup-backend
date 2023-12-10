@@ -16,7 +16,7 @@ const app = express();
 
 //comunicacion entre servidores:
 app.use(cors({
-  origin:'http://localhost:5173',
+  origin:'https://quejup-frontend.vercel.app',
   credentials: true
 }));
 
@@ -36,5 +36,5 @@ app.use("/api", publicacion);
 
 //correr en servidor:
 app.listen(port, () => {
-  console.log(`El servidor está funcionando en el puerto http://localhost:${port}`);
+  console.log(`El servidor está funcionando`);
 });

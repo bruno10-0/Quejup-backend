@@ -146,7 +146,7 @@ export const createUser = async (req, res) => {
       <h1>Confirmación de Correo Electrónico</h1>
       <p>Hola,</p>
       <p>Gracias por registrarte en nuestro servicio. Para confirmar tu correo electrónico, haz clic en el siguiente enlace:</p>
-      <p><a href="http://localhost:3000/api/confirmar/${verificationToken}">Verificar Correo Electrónico</a></p>
+      <p><a href="https://backend-quejup.onrender.com/api/confirmar/${verificationToken}">Verificar Correo Electrónico</a></p>
       <p>Si no solicitaste este correo, puedes ignorarlo con seguridad.</p>
     </div>
   </body>
